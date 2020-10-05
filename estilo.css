@@ -1,0 +1,214 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.cabecalho{
+		   background-color:#000000;
+		   display:grid;
+		   grid-template-columns:50% 50%;	
+		   padding-left:15px;
+}
+.menu{
+	font-family:tahoma;
+	font-size:15pt;
+}
+.menu a{
+	text-decoration:none;
+	color:white;
+}
+.menu ul li{
+	list-style-type:none;
+	float:left;
+	padding:25px;
+}
+.menu a:hover{
+	border:1px solid white;
+	border-radius:5px;
+	padding:15px
+}
+.mensagem{
+	background-color: #000000;
+	height:150px;
+	color:white;
+	font-family:cursiva;
+	font-size:30pt;
+	font-style:italic;
+	text-align:center;
+	padding:50px;
+}
+.frase{
+	font-family:calibri;
+	font-size:15pt;
+}
+.servicos{
+	display:grid;
+	grid-template-columns:50% 50%;
+	font-family:calibri;
+}
+.item p{
+	font-weight:bolder;
+	font-size:15pt;
+}
+.item{
+	padding:40px;
+	background-color:#696969;
+	color:#363636;
+	font-family:cursiva;
+	text-align:justify;
+	font-size:20px;
+	color:white;
+}
+.contato{
+	padding:40px;
+	height:400px;
+	background-color:#000000;
+	display:grid;
+	grid-template-columns: 50% 50%;
+	color:white;
+	font-family:cursiva;
+	font-size:25pt;
+	font-style:italic;
+	text-align:center;
+}
+		
+.rodape{
+	background-color:#000000;
+	height:250px;
+	text-align:center;
+	display:grid;
+	grid-template-columns:40% 20% 20% 20%;
+	padding-top:30px;
+	padding-bottom:55px;
+}
+.rodape p{
+	font-family:calibri;
+	font-size:20px;
+	color:white;
+}
+/*
+gerar o google maps
+https://embedgooglemaps.com/pt/
+
+*/
+
+
+.produtos{
+	display:grid;
+	grid-template-columns:33% 33% 33%;
+	background-color:#4F4F4F;
+	color: #F0FFFF;
+	padding-top: 30px;
+	padding-bottom:25px;
+}
+
+.produtos a{
+	color:#F0FFFF
+}
+
+.produtos a:hover{
+	color: #00008B;
+	border:2Px solid white;
+	border-radius:15px;
+	padding:15px
+	
+}
+
+.foto{
+	display:grid;
+	grid-template-columns:33% 33% 33%;
+	background-color:#000000;
+	padding-left:80px;
+	padding-top:5px;
+	padding-bottom:50px;
+}
+
+.mensagem2{
+	background-color: #4F4F4F;
+	height:150px;
+	color:white;
+	font-family:cursiva;
+	font-size:30pt;
+	font-style:italic;
+	text-align:center;
+	padding:50px;
+}
+
+.frase2{
+	font-family:calibri;
+	font-size:15pt;
+}
+
+.produtosquebrados{
+	display:grid;
+	grid-template-columns:33% 33% 33%;
+	background-color:#000000;
+	color:white;
+	padding-top: 30px;
+	padding-bottom:25px;
+}
+
+.produtosquebrados{
+	background-color: #000000;
+	height:150px;
+	color:white;
+	font-family:cursiva;
+	font-size:30pt;
+	font-style:italic;
+	text-align:center;
+	padding:50px;
+}
+.falhas{
+	font-family:calibri;
+	font-size:15pt;
+}
+	
+.produtos2{
+	display:grid;
+	grid-template-columns:33% 33% 33%;
+	background-color:#4F4F4F;
+	color: #F0FFFF;
+	padding-top: 30px;
+	padding-bottom:25px;
+}
+	
+	.produtos2 a{
+	color:#F0FFFF
+}
+	
+.produtos2 a:hover{
+	color: #00008B;
+	border:2Px solid white;
+	border-radius:15px;
+	padding:15px
+	
+}
+
+.alert {
+  padding: 20px;
+  background-color: white;
+  color: black;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.closebtn {
+  margin-left: 10px;
+  color: black;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+	
+	
+
+
+
+	
